@@ -17,15 +17,22 @@ p {
 img {
   display: block;
 }
+section {
+  display: flex;
+  margin: 0;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .conteiner {
   width: 1200px;
+  margin: 0 auto;
 }
 .header .conteiner {
   display: flex;
   align-items: center;
-  height: 60px;
   border-bottom: 1px solid #5e5e5e;
   background-color: #fff;
+  height: 60px;
 }
 .menu {
   display: flex;
@@ -95,19 +102,12 @@ img {
   cursor: pointer;
 }
 /*index*/
-.main {
-  padding: 0;
-  margin: 0;
-}
 .back {
   background-color: #2f303a;
-  height: 451px;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0;
   flex-direction: column;
-  margin: 0;
 }
 .title {
   font-weight: 900;
@@ -139,10 +139,6 @@ img {
   margin: 0;
   padding: 0;
 }
-.section {
-  margin: 0;
-  padding: 0;
-}
 .ullorem {
   display: flex;
   justify-content: center;
@@ -160,8 +156,6 @@ img {
   color: #757575;
   margin-top: 7px;
   padding: 0;
-  width: 203px;
-  height: 56px;
   margin-right: 22px;
 }
 .title2 {
@@ -190,7 +184,6 @@ img {
   background-color: #f5f4fa;
   margin: 0;
   padding: 0;
-  height: 487px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -304,12 +297,12 @@ img {
   margin-left: 18px;
 }
 /*footer*/
-.back-footer .conteiner {
-  background-color: #2f303a;
+.back-footer {
   height: 190px;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  background-color: #2f303a;
 }
 .logo2 {
   font-family: raleway;
